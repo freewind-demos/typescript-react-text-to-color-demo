@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
-import './Hello.pcss';
+import { ColorDemo } from './ColorDemo';
 
 type Props = {};
 
-export const Hello: FC<Props> = ({}) => {
+export const Hello: FC<Props> = ({ }) => {
   return <div className={'Hello'}>
-    <h1>Hello React</h1>
+    <ColorDemo />
   </div>;
-}
+};
